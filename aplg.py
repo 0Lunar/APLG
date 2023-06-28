@@ -31,7 +31,7 @@ if __name__ == "__main__":
     print(Fore.CYAN + "Enter every how many attempts the device locks (if it doesn't lock, enter 0)")
     num_lock = int(input(Fore.YELLOW + "\n => "))
     if num_lock != 0:
-        print(Fore.CYAN + "\nEnter the length of the delay in seconds")
+        print(Fore.CYAN + "\nEnter the length of the delay in ms")
         time_delay = int(input(Fore.YELLOW + "\n => "))
     print(Fore.CYAN + "\nEnter the length of the pin")
     pin_lenght =  int(input(Fore.YELLOW + "\n => "))
