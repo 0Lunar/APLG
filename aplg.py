@@ -43,7 +43,7 @@ if __name__ == "__main__":
         pin += "STRING "
         for y in range(pin_lenght-x_len):
             pin += "0"
-        pin += str(x) + "\n"
+        pin += str(x) + "\nENTER\nDELAY 500\n"
         if x != 0:
             if num_lock != 0:
                 if x % num_lock == 0:
